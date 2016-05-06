@@ -5,11 +5,11 @@
   position:relative;
 }
 
-.iphone6, .konglish-video{
+.iphone6, .kongish-video{
   position: absolute;
 }
 
-.konglish-video {
+.kongish-video {
   margin-top: 74px;
   margin-left: 20px;
 }

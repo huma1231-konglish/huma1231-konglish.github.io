@@ -9,3 +9,16 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="js/landing-page.js"></script>
+
+<script type="text/javascript">
+    $(window).load(function(){
+        $('.modal').modal('show');
+    });
+
+    $(document).ready(function(){
+      setTimeout(function() {
+      $('iframe.delayed').attr('src',
+                                   $('iframe.delayed').attr('data-src'));
+  }, 38000);
+});
+</script>
